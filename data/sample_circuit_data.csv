@@ -1,0 +1,6 @@
+Circuit_ID,Voltage_V,Current_A,Resistance_Ohm,Node_In_A,Node_Out_A,Source_Voltage_V,Voltage_Drop_R1_V,Voltage_Drop_R2_V
+C001,12,2,6,5,5,12,4,8
+C002,24,3,8,8,8,24,10,14
+C003,15,3,5,6,6,15,5,10
+C004,20,4,5,10,10,20,8,12
+C005,30,5,6,12,12,30,12,18
