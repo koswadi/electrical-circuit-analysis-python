@@ -1,5 +1,10 @@
 # Electrical Circuit Analysis with Python
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTest](https://img.shields.io/badge/Tested-PyTest-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Electrical Engineering](https://img.shields.io/badge/Domain-Electrical%20Engineering-orange)
+
 ## Overview
 
 This project demonstrates fundamental electrical engineering analysis using Python. It covers core circuit analysis concepts including Ohm's Law, Kirchhoff's Current Law (KCL), and Kirchhoff's Voltage Law (KVL).
@@ -7,6 +12,12 @@ This project demonstrates fundamental electrical engineering analysis using Pyth
 The repository includes engineering calculations, Jupyter Notebook demonstrations, automated testing, report generation, and visual documentation to showcase practical Python applications in electrical engineering.
 
 ---
+
+## Circuit Under Study
+
+![Circuit Diagram](circuit_diagram.png)
+
+Example resistive circuit used for demonstrating Ohm's Law, KCL, and KVL validation.
 
 ## Project Structure
 
@@ -105,11 +116,10 @@ Verify voltage conservation in closed loops:
 
 ## Visual Assets
 
-### Workflow Diagram
+## Workflow Diagram
 
-```text
-assets/workflow_diagram.png
-```
+![Workflow](assets/workflow_diagram.png)
+
 
 Illustrates the complete workflow:
 
@@ -127,11 +137,9 @@ Visualization
 PDF Report
 ```
 
-### Results Preview
+## Results Preview
 
-```text
-assets/results_preview.png
-```
+![Results](assets/results_preview.png)
 
 Contains example outputs, plots, and calculation results generated during circuit analysis.
 
@@ -226,6 +234,55 @@ jupyter notebook
 - SPICE data integration
 - Interactive visualization dashboard
 
+## Sample Output
+
+```python
+Voltage = 24 V
+Resistance = 8 Ω
+
+Current = Voltage / Resistance
+Current = 3 A
+
+## Mathematical Foundation
+
+Ohm's Law:
+
+I = V / R
+
+Kirchhoff's Current Law:
+
+Σ I = 0
+
+Kirchhoff's Voltage Law:
+
+Σ V = 0
+
+## Skills Demonstrated
+
+- Electrical Engineering Fundamentals
+- Circuit Analysis
+- Scientific Computing
+- Data Analysis
+- Engineering Visualization
+- Python Programming
+- Automated Testing
+- Technical Documentation
+- Report Automation
+
+## Repository Highlights
+
+✔ Modular Python Architecture
+
+✔ Automated Engineering Calculations
+
+✔ Test-Driven Validation
+
+✔ Professional Documentation
+
+✔ Engineering Visualization
+
+✔ Reproducible Analysis Workflow
+
 ---
 
 ## Author
@@ -233,3 +290,11 @@ jupyter notebook
 Agoes Koswadi
 
 Electrical Engineering & Python Portfolio Project
+
+## Workflow
+
+![Workflow](assets/workflow_diagram.png)
+
+## Results Preview
+
+![Results](assets/results_preview.png)
